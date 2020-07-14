@@ -221,14 +221,7 @@ module.exports = {
         allowTemplateLiterals: true
       }
     ],
-    semi: [2, 'never'],
-    'semi-spacing': [
-      2,
-      {
-        before: false,
-        after: false
-      }
-    ],
+    semi: 0,
     'space-before-blocks': [2, 'always'],
     'space-before-function-paren': [2, 'never'],
     'space-in-parens': [2, 'never'],
@@ -264,4 +257,4 @@ module.exports = {
     ],
     'array-bracket-spacing': [2, 'never']
   }
-}
+};
